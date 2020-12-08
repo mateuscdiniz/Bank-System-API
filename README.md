@@ -38,5 +38,5 @@ Then install it using the dependecy manager of your preference like NPM: npm ins
 # /bank (GET)
 - Lista todas as contas cadastradas com seus respectivos saldos.
 
-# /bank/:account (GET)
+# /bank/<account> (GET)
 - Mostra as informações da conta passada.
