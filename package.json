@@ -1,0 +1,31 @@
+{
+    "name": "banksystem",
+    "version": "1.0.0",
+    "description": "Bank System using nodeJS and mongoDB",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mateuscdiniz/Bank-System-API.git"
+    },
+    "author": "mateuscdiniz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mateuscdiniz/Bank-System-API.git/issues"
+    },
+    "homepage": "https://github.com/mateuscdiniz/Bank-System-API.git#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.0",
+        "http": "0.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongodb": "^3.2.5",
+        "mongoose": "^5.6.1",
+        "nodemailer": "^6.4.3",
+        "nodemon": "^1.19.0",
+        "path": "^0.12.7"
+    }
+}
