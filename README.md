@@ -8,8 +8,8 @@ Then install it using the dependecy manager of your preference like NPM: npm ins
 # /Auth
 
 {
-    email: teste@teste.com,
-    password: "teste"
+    "cpf": "22244455567",
+    "password": "teste"
 }
 
 # /bank/create
