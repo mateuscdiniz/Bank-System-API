@@ -5,14 +5,14 @@ First, clone the repository: git clone https://github.com/mateuscdiniz/Bank-Syst
 
 Then install it using the dependecy manager of your preference like NPM: npm install
 
-# /Auth
+# /auth (post)
 
 {
     "cpf": "22244455567",
     "password": "teste"
 }
 
-# /bank/create
+# /bank/create (post)
 
 {
     "owner": "mateus",
@@ -20,19 +20,22 @@ Then install it using the dependecy manager of your preference like NPM: npm ins
     "password": "teste"
 }
 
-# /bank/deposit
+# /bank/deposit (post)
 
 {
     "account": 000,
     "value": 3000
 }
 
-# /bank/withdraw
+# /bank/withdraw (post)
 
 {
     "owner": "mateus",
     "account": 000,
     "value": 3000
 }
+
+# /bank (get)
+- Lista todas as contas cadastradas com seus respectivos saldos.
 
 
